@@ -1,0 +1,956 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Navbar Boshlandi */
+@font-face {
+    font-family: 'Gilroy';
+    src: url("./fonts/Gilroy__Light.otf") format("truetype");
+}
+@font-face {
+    font-family: 'gilroy__bold';
+    src: url("./fonts/Gilroy-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Gilroy__light';
+    src: url("./fonts/gilroy_Light.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url("./fonts/gilroy_bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Gilroy__semibold';
+    src: url("./fonts/gilroy_semibold.ttf") format("truetype");
+}
+
+   .girloy__font__nav{
+    font-family: 'Gilroy__light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #020105;
+   }
+   .logo__div{
+    z-index: 47;
+    position: relative;
+   }
+   .logo__div::after{
+       position: absolute;
+        /* z-index: 47;   */
+        content: "";
+       
+   
+    }
+    .burger__svg{
+        display: none;
+    }
+
+    /* .header::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: red;
+        z-index:10;
+    } */
+
+  
+  /* Navbar MEDIA BILAN  TUGADI*/
+/* _______________________________________________ */
+.__qator1{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.__qator10{
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.__qator5{
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.__qator2{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.__qator3{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.__qator4{
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.__qator7{
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+
+  /* Content One Style BOSHLANDI */
+   .content__one__div{
+    background: radial-gradient(50% 50% at 50% 50%, rgba(113, 192, 198, 0.64) 0%, #71C0C6 77.02%);
+    border-radius: 32px;
+   }
+   .content__one__div__sarlavha{
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 64px;
+    color: #FFFFFF;
+   }
+   .content__one__div__text{
+    font-family: 'Gilroy__light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+   }
+   .content__one__div__btn{
+    background: #F3974E;
+    border: 1px solid #F3974E;
+    transition: 0.3s ease;
+    border-radius: 32px;
+    font-family: 'Gilroy__light';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+   }
+   .content__one__div__btn:hover,.content__four__product__btn:hover{
+       background:#fff;
+       color: #F3974E;
+   }
+   .content__one__div__card{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(56px);
+    border-radius: 24px;
+   }
+   .content__one__div__card h1{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 56px;
+    color: #FFFFFF;
+   }
+   .content__one__div__card h4{
+    font-family: 'Gilroy__light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F5F5F7;
+   }
+   .content__one__div__img__div{
+      width: 600px;
+      height: auto;
+     
+    }
+    .content__one__div__img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+   
+  /* Content One Style TUGADI */
+  /* ____________________________________________________ */
+
+  /* ContentTwo style Boshlandi */
+.content__two__sarlavha{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+}
+.content__two__text{
+    font-family: 'Gilroy__light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height:30px;
+    color: #020105;
+}
+.orange__line{
+    height: 2px;
+    background: #F3974E;
+    width: 100px;
+}
+.content__two__div__img{
+    width: 100%;
+    height: 100%;
+}
+
+  /* ContentTwo style Tugadi */
+/* ______________________________________________________ */
+
+  /* ContentThree style BOSHLANDI */
+  .content__three__card{
+    background-color: #7FC6CCFF;
+    border: 1px solid #B6DFE2FF;
+    box-shadow: 0px 0px 5px #71C0C6;
+    border-radius: 24px;
+  }
+  .content__three__card p{
+    font-family: "Gilroy__light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+  }
+  .content__three__card__contanier h1{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    color: #FFFFFF;
+  }
+  .white__line{
+      background-color: white;
+      width: 100px;
+      height: 2px;
+  }
+  /* ContentThree style Tugadi */
+
+  /* ContentFour style BOSHLANDI */
+.content__four__h1{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #020105;
+    z-index: 11;
+}
+.content__four__card{
+    border: 1px solid #E8F5F6FF;
+    border-radius: 24px;
+    position: relative;
+    width: 265px;
+    height: 350px;
+    overflow: hidden;
+    transition: 0.3s ease;
+    transform-style: preserve-3d;
+    margin-top: 12px;
+}
+.content__four__card h2{
+   font-family:"Gilroy__light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #020105;
+   
+}
+.content__four__product__btn {
+    background: #F3974E;
+    border: 1px solid #F3974E;
+    transition: 0.3s ease;
+    border-radius: 32px;
+    font-family: "Gilroy__light";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding: 8px 25px;
+    box-shadow: 0px 0px 15px #F3974E;
+}
+/* animation card boshlanishi */
+.front,
+.back {
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    transition-delay: 0.15s;
+    transition: 0;
+}
+.front {
+    transform: rotateY(0deg);
+}
+.back {
+    transform: rotateY(180deg);
+    opacity: 0;
+    backface-visibility: visible;
+    background: #F3974E;
+    color: white;
+}
+
+.content__four__card:hover {
+    transform: rotateY(180deg);
+}
+
+.content__four__card:hover .front {
+    opacity: 0;
+}
+
+.content__four__card:hover .back {
+    opacity: 1;
+}
+.back p,.back a{
+    font-family:"Gilroy__light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+
+/* animation card Tugashi */
+
+
+  /* ContentFour style TUGADI */
+
+
+  /* ContentFive style boshlanishi */
+
+.content__five__card__data{
+    font-family:"Gilroy__light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #020105;
+}
+.content__Five__card__div a{
+    font-family:"Gilroy__semibold";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #020105;
+}
+
+  /* ContentFive style Tuagashi */
+
+
+  /* ContentSix style boshlanishi BOSHLANISHI */
+
+  .content__six__five__card{
+    border-radius: 24px;
+    border: 1px solid #E8F5F6FF;
+  }
+  .content__six__five__card h1{
+    font-family:"Gilroy__light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #020105;
+    opacity: 0.8;
+  }
+  .content__six__five__card h2{
+    font-family:"Gilroy__light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #808080;
+    opacity: 0.72;
+  }
+  .content__six__five__card p{
+    font-family:"Gilroy__light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #020105;
+  }
+
+  /* ContentSix style boshlanishi TUGASHI */
+
+
+  /* ContentEight style boshlanishi BOSHLANISHI */
+  .content__eight__bg{
+      background-image: url('./img/ContactBg.png');
+      background-position: center;
+      background-size: cover;
+      border-radius: 24px;
+      height:496px;
+  }
+  .content__eight__bg::before{
+    background: linear-gradient(83.32deg, rgba(113, 192, 198, 0.12) -40.43%, rgba(0, 0, 0, 0) 49.66%);
+  }
+  .content__eight__bg__p{
+    font-family:"Gilroy__light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #020105;
+    opacity: 0.8;
+  }
+  .content__eight__bg__input{
+    border: 1px solid #71C0C6;
+    width: 310px;
+  }
+  .content__eight__bg__input__2{
+      margin-left: 20px;
+  }
+  .content__eight__bg__input:focus,.content__eight__bg__textarea:focus{
+      outline: none;
+  }
+  .content__eight__bg__textarea{
+    width: calc(320px * 2);
+    resize: none;
+    height: 43px;
+    
+    border: 1px solid #71C0C6;
+  }
+  /* ContentEight style boshlanishi TUGASHI */
+
+/* Footer style BOSHLANDI */
+.footer__section__div h1{
+  font-family:"Gilroy__semibold";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+}
+.footer__section__div a{
+    font-family:"Gilroy__light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+}
+.footer__networks__div h1{
+    font-family:"Gilroy__semibold";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+}
+.footer__networks__div h2{
+    font-family:"Gilroy__light";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px
+}
+.footer__adresses h1{
+    font-family:"Gilroy__semibold";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+}
+.footer__adresses h2{
+    font-family:"Gilroy__semibold";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+}
+.footer__adresses a{
+    font-family:"Gilroy__light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #F5F5F7;
+}
+.footer__contact h1{
+    font-family:"Gilroy__semibold";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+}
+.footer__contact a{
+    font-family:"Gilroy__light";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+/* Footer style TUGADI */
+
+
+/* AboutTwo  style BOSHLANDI  */
+.about__two__card{
+    border: 1px solid #DDF0F1FF;
+    border-radius: 30px;
+}
+.about__two__card h1{
+    font-family: 'Gilroy__semibold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #020105;
+}
+.about__two__card h2{
+    font-family: 'Gilroy__light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #020105;
+    opacity: 0.8;
+}
+
+/* AboutTwo  style TUGADI  */
+/* AboutFOUR  style BOSHLANDI  */
+.about__four__card{
+    border: 1px solid #BBE1E4FF;
+    border-radius: 30px;
+}
+.about__four__card h1{
+    font-family: 'Gilroy__semibold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #020105;
+}
+
+/* AboutFOUR style TUGADI  */
+
+/* Blog__full__one style BOSHLANDI */
+.blog__full__one__p{
+    font-family: 'Gilroy__light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #020105;
+    opacity: 0.8;
+}
+.blog__full__img__div h4{
+    font-family: 'Gilroy__semibold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #020105;
+}
+/* Blog__full__one style TUGADI */
+
+/*  Catalog__Full__One  style BOSHLANDI */
+.catalog__full__one {
+    display: grid;
+    align-items: start;
+    grid-template-columns: 40% calc(60% - 20px);
+    gap: 20px;
+}
+.catalog__full__one__sastav__left{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+}
+.catalog__full__one__sastav__right{
+    font-family: 'Gilroy__semibold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #1878F3;
+}
+.catalog__full__one__sastav__bg{
+    background: rgba(113, 192, 198, 0.1);
+    border-top: 0.5px solid #71C0C6;
+    border-bottom: 0.5px solid #71C0C6;
+    box-sizing: border-box;
+}
+.catalog__full__one__sarlavha__div h1{
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #020105;
+}
+.catalog__full__one__sarlavha__div h5{
+    font-family: 'Gilroy__semibold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #020105;
+}
+.catalog__full__one__sarlavha__div p{
+    font-family: 'Gilroy__semibold'; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #020105;
+    opacity: 0.64;
+}
+
+
+
+/*  Catalog__Full__One  style TUGADI */
+
+ /* Catalog__five__style BOSHLANDI */
+ .catalog__five__card{
+    background: #71C0C6;
+}
+/* Catalog__five__style TUGADI */
+
+/* Contact One Card BOSHLANDI */
+.contact__one__card{
+    background: #71C0C6;
+    border-radius: 24px;
+    width: 550px;
+    transform: translateY(-220px) translateX(150px);
+}
+.contact__one__card__tabName__div__h1{
+    font-family: 'Gilroy__light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #F5F5F7;
+}
+.contact__one__card__underline__div{
+    height: 1px;
+    width:100%;
+    margin: 0px;
+    background-color: white;
+
+}
+.contact__tab__active{
+    font-family: 'gilroy__bold';
+    border-bottom: 1px solid #F5F5F7;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #F5F5F7;
+}
+
+/* Custom Tab boshlanishi */
+.tabs {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+ 
+  .active-tabs {
+    background: #eeeded;
+  }
+ 
+  .content__tab {
+      display: none;
+      background: #71C0C6;
+      padding: 10px;
+      border-radius: 0px 0px 30px 30px;
+  }
+  
+  .active-content {
+      display: flex;
+      flex-direction: column;
+  }
+  .contact__tab__inner h2{
+    font-family: 'Gilroy__semibold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+  }
+  .contact__tab__inner h5{
+    font-family: 'Gilroy__light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+  }
+ 
+/* Custom Tab Tugashi */
+
+
+/* Contact One Card TUGADI */
+  @media(max-width:1190px){
+    .content__one__div__img__div{
+        width: 450px;
+    }
+
+    .content__one__div__img__div{
+        display: none;
+    }
+  
+}
+@media(max-width:935px){
+    .catalog__full__one {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .catalog__full__one__img__div{
+        height: 500px;
+        width: 400px;
+    }
+    .burger__svg{
+        display: block;
+    }
+    .catalog__five__card__div__grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .blog__full__img__div{
+        height: 400px !important;
+    }
+    .blog__full__sarlavha{
+        font-size:30px;
+        line-height: 30px;
+    }
+    .catalog__five__card__div__grid__card{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .content__one__div__btn{
+        justify-self: end;
+       }
+    .content__one__div__text__div{
+        text-align: center;
+        width: 100%;
+        margin-top:5px;
+    }
+    .content__one__div__text{
+        font-size: 20px;
+    }
+    .content__one__div__sarlavha{
+        font-size: 35px;
+        line-height: 44px;
+        text-align: center;
+        width: 100%;
+    }
+    .content__one__btn__div{
+        display: flex;
+        justify-content: center;
+        align-items:  center;
+        width: 100%;
+    }
+    .content__one__div__card h1{
+        text-align: center;
+       
+    }
+    .content__one__div__card h4{
+        text-align: center;
+    }
+    .content__one__div__inner__content{
+          flex-direction: column;
+    }
+       .navbar__links{
+           position: fixed;
+           background-color: #71C0C6;
+           width: 100%;
+           height: 100vh;
+           display: flex;
+           flex-direction: column;
+           align-items:  center;
+           justify-content: center;
+           top: 0;
+           z-index: 5;
+           transition: 0.3s ease;
+       }
+       .logo__div{
+           width: 100%;
+       }
+       .logo__div img{
+           width: 180px;
+       }
+       .navbar__links li{
+            margin: 10px 0px;
+            text-align: start;
+       }
+       .girloy__font__nav{
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 20px;
+        color: #020105;
+       }
+       .content__three__head{
+           grid-template-columns: repeat(1, 1fr);
+       }
+       .content__three__card__contanier h1{
+       text-align: center;
+      }
+      .nav__dropdown{
+          background-color: #71C0C6FF !important;
+      }
+   }
+  
+@media(max-width:1052px){
+    .content__two{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .about__one__img__div {
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content__two__div__img{
+        width: 100%;
+        height: 100%;
+        /* object-fit: cover; */
+    }
+    .content__two__div__img__div{
+        /* width: 700px; */
+        height: 500px;
+    }
+    .content__two__div__img{
+        width: 100%;
+        height: 100%;
+       
+    }
+}
+@media(max-width:800px) {
+    .content__eight__bg__input{
+        width: 310px;
+      }
+      .content__eight__bg__input__2{
+        margin-left: 0;
+        margin-top: 12px;
+    }
+    .content__eight__bg__textarea{
+        width: 310px;
+        height: 43px; 
+        margin-top: 12px;
+    }
+    .content__eight__bg__p{
+        font-size: 20px;
+        line-height: 30px;
+      }
+    .content__eight__h1{
+        font-size: 37px;
+        line-height: 37px;
+    }
+    .content__eight__bg__textarea__div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+      .content__eight__bg__input__div{
+          flex-direction: column;
+          align-items: center;
+      } 
+}
+
+@media(max-width:400px) {
+    .content__eight__bg__input{
+        width: 230px;
+      }
+      .content__eight__bg__input__2{
+        margin-left: 0;
+        margin-top: 12px;
+    }
+    .content__eight__bg__textarea{
+        width: 230px;
+        height: 41px; 
+        margin-top: 12px;
+    }
+    .content__eight__bg__p{
+        font-size: 18px;
+        line-height: 25px;
+      }
+    .content__eight__h1{
+        font-size: 30px;
+        line-height: 30px;
+    }
+  
+}
+@media(max-width:539px){
+    .content__two__div__img__div{
+        height: 300px;
+    }
+    .blog__full__one__p{
+        font-size: 15px;
+        line-height: 25px;
+      
+    }
+    .blog__full__data{
+        font-size: 13px !important;
+    }
+    .blog__full__img__div{
+        height: 280px !important;
+    }
+   
+    .about__one__img__div {
+        height: 300px !important;
+    }
+    .content__three__card__contanier h1{
+        font-size: 30px;
+       }
+    .catalog__full__one {   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .catalog__full__one__img__div{
+        height: 250px !important;
+        width: 250px !important;
+    }
+    .catalog__full__one__sastav__left,.catalog__full__one__sastav__right{ 
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .catalog__full__one__sarlavha__div h1{
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .catalog__full__one__sarlavha__div h5{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .catalog__full__one__sarlavha__div p{
+        font-size: 15px;
+        line-height: 20px;
+     
+    }
+    
+}
