@@ -6,7 +6,7 @@ function BlogFullOne() {
             <h4 className="content__two__sarlavha blog__full__sarlavha mb-3">
                 Stephens Instruments
             </h4>
-            <div className="w-8/12 mx-auto">
+            <div className="w-8/12 mx-auto blog__content__wrapper">
                 <div style={{ width: "100%", height: "650px" }} className="relative blog__full__img__div">
                     <h4 className="my-3">Stephens Instruments</h4>
                     <img src={medical} className="absolute w-full h-full object-cover" alt="medical" />

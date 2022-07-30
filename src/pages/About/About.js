@@ -3,9 +3,9 @@ import Footer from "../home/Footer";
 import Navbar from "../home/Navbar";
 import ContentThree from "../home/ContentThree";
 import AboutOne from "./AboutOne";
-import AboutThree from "./AboutTree";
 import AboutTwo from "./AboutTwo";
 import AboutFour from "./AboutFour";
+import "../../style/about.css"
 
 function About() {
     return (
@@ -13,7 +13,6 @@ function About() {
             <Navbar />
             <AboutOne />
             <AboutTwo />
-            <AboutThree />
             <ContentThree />
             <AboutFour />
             <div className="space-y-12">
